@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(140, 237, 62);
+}
+.first{
+    background-color:aqua ;
+    border-radius: 15px;
+    justify-content: center;
+    border:5px ridge rgb(40, 150, 247);
+    margin:10%;
+    height: 250px;
+    width: 700px;
+    padding:10px;
+}
+.third input{
+    border-radius: 10px;
+    background-color: chartreuse;
+    height: 40px;
+    width: 55px;
+
+}
+.third:hover{
+     transform: scale(1.1);
+}
+input:invalid:not(placeholder-shown){
+    border-color: red;
+    border-width: 2px;
+}
+input:valid:not(placeholder--shown){
+    border-color: green;
+    border-width: 2px;
+}
